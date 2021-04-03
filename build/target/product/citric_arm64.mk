@@ -12,12 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, build/target/product/aosp_arm.mk)
+$(call inherit-product, build/target/product/aosp_arm64.mk)
 $(call inherit-product, build/target/product/gsi_release.mk)
 
-include vendor/lineage/build/target/product/lineage_generic_target.mk
+include vendor/citric/build/target/product/citric_generic_target.mk
 
 TARGET_NO_KERNEL_OVERRIDE := true
-TARGET_USES_64_BIT_BINDER := true
 
-PRODUCT_NAME := lineage_arm
+PRODUCT_NAME := citric_arm64
