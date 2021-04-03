@@ -1,0 +1,14 @@
+Citric OS
+===========
+
+
+Submitting patches
+------------------
+Patches are always welcome! Please submit your patches via a Pull Request!
+
+
+
+Builders
+--------
+
+All supported devices are built periodically by our maintainers as changes are committed to ensure the source trees remain buildable.
